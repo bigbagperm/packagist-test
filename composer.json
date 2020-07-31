@@ -1,0 +1,21 @@
+{
+    "name": "sedol/pack-test",
+    "description": "Test package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bigbagperm",
+            "email": "bigbagperm@gmail.com"
+        }
+    ],
+	"require": {
+        "php": ">=5.3.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PackTest\\": "src/"
+        }
+    }
+}
